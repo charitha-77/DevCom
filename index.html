@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News Central</title>
+    <link rel="stylesheet" href="style.css">
+    <!--import bootstrap-->
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--import font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <!-- create a title div, that only contains nothing but news central, with title class-->
+   <div style="background-color:greenyellow; width:100%;" >
+     <a style="text-decoration: none;"      href="index.html" ><h1 class="title">News Central</h1></a>
+   </div>
+<div class="bar bg-secondary">
+   <!-- a navbar containing the tags of [cinema, culture, politics, sports, books, education] -->
+   <div class="sticky-top">
+     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+          <!-- <a class="navbar-brand" href="./index.html">Be Updated!!</a> -->
+          <button style="margin-left: 80%;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./Business.html">Business</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Sports.html">Sports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Entertainment.html">Entertainment</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link" href="./Politics.html">Politics</a>
+             </li>
+             <li class="nav-item active">
+              <a class="nav-link" href="./Education.html">Education</a>
+            </li>
+                
+            </ul>
+          </div>  
+        </nav>
+
+
+ </div>
+
+   
+    
+ <!-- <div class="card mb-3" style="float:left; width: 18rem;">
+     <img src="./images/1.jpg" class="card-img-top" alt="news article image">
+     <div class="card-body">
+       <h5 class="card-title">News Article Title</h5>
+       <p class="card-text">The first 20 words of the article text...</p>
+       <a href="#" class="btn btn-primary">Read More</a>
+     </div>
+   </div> -->
+
+   <!-- divide the css grid into three parts and each has a news card-->
+   <div class="grid">
+     <div class="card mb-3" style="float:left; width: 100%;">
+          <img src="https://images.moneycontrol.com/static-mcnews/2023/01/WhatsApp-Image-2023-01-31-at-2.14.54-PM-770x417.jpeg?impolicy=website&width=770&height=431" class="card-img-top" alt="news article image">
+          <div class="card-body">
+            <h1 class="card-title">Economic Survey 2023 LIVE Updates: Haven't given up hope of India's 8% GDP growth, says CEA</h1>
+            <p class="card-text">Economic Survey 2023 LIVE: While presenting the Economic Survey 2023, CEA Anatha Nageswaran says, "We can strive for, be able to achieve 8 percent growth if several dimensions are addressed."</p>
+            <a href="https://www.moneycontrol.com/news/business/budget/economic-survey-2023-live-updates-economic-advisor-fm-nirmala-sitharaman-budget-session-9967971.html" class="btn-outline-dark btn-lg">Read More</a>
+          </div>
+        </div><div class="card mb-3" style="float:left; width: 100%;">
+          <img src="https://images.hindustantimes.com/img/2023/01/31/550x309/ap-budget-2020_cf4a0248-2a16-11eb-a1f1-9949958d68df_1675152750498_1675152750498.jpg" class="card-img-top" alt="news article image">
+          <div class="card-body">
+            <h1 class="card-title">Visakhapatnam will be new Andhra Pradesh capital, says CM Jagan Reddy</h1>
+            <p class="card-text">Andhra Pradesh capital: YSR Congress chief called on investors to visit the new capital during a global summit next month to 'see for themselves how easy it is to do business' in his state.</p>
+            <a href="https://www.hindustantimes.com/india-news/visakhapatnam-will-be-new-andhra-pradesh-capital-cm-reddy-101675152726948.html" class="btn-outline-dark btn-lg">Read More</a>
+          </div>
+        </div><div class="card mb-3" style="float:left; width: 100%;">
+          <img src="https://static.toiimg.com/thumb/imgsize-5091277,msid-97444662,width-400,resizemode-4/97444662.jpg" class="card-img-top" alt="news article image">
+          <div class="card-body">
+            <h1 class="card-title">Pakistan Mosque blast Live Updates: 63 killed, 150 hurt at mosque in Pakistan's Peshawar; Taliban claims responsibility</h1>
+            <p class="card-text">Peshawar blast Live Updates: A Taliban suicide bomber blew himself up in a mosque packed with worshippers during afternoon prayers on Monday in the high-security zone in Pakistan's northwestern Peshaw...</p>
+            <a href="https://timesofindia.indiatimes.com/world/pakistan-mosque-blast-live-updates-explosion-in-pakistan-peshawar-mosque-deaths-and-injured-latest-news/liveblog/97444662.cms" class="btn-outline-dark btn-lg">Read More</a>
+          </div>
+        </div><div class="card mb-3" style="float:left; width: 100%;">
+          <img src="https://static.toiimg.com/thumb/msid-97470649,imgsize-50984,width-400,resizemode-4/97470649.jpg" class="card-img-top" alt="news article image">
+          <div class="card-body">
+            <h1 class="card-title">U-19 women’s World Cup win for India: Celebrate the mighty feat of the feisty eleven</h1>
+            <p class="card-text">The backstories of the victorious world U19 players reveal how cricket remains a vehicle of aspiration, provides a more level playing field</p>
+            <a href="https://indianexpress.com/article/opinion/editorials/u-19-womens-world-cup-win-for-india-celebrate-the-mighty-feat-of-the-feisty-eleven-8413806/" class="btn-outline-dark btn-lg">Read More</a>
+          </div>
+        </div><div class="card mb-3" style="float:left; width: 100%;">
+            <img src="https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/01/box-office-pathaan-enters-300-crore-club-in-just-6-days-001.jpg" class="card-img-top" alt="news article image">
+            <div class="card-body">
+              <h1 class="card-title">Pathaan Box Office Day 6: Shah Rukh Khan Led Actioner Enters 300 Crore Club</h1>
+              <p class="card-text">Siddharth Anand's film Pathaan led by Shah Rukh Khan has set a new record at the box office.
+              </p>
+              <a href="https://www.koimoi.com/box-office/pathaan-box-office-day-6-shah-rukh-khan-led-actioner-enters-300-crore-club/" class="btn-outline-dark btn-lg">Read More</a>
+            </div>
+          </div><div class="card mb-3" style="float:left; width: 100%;">
+              <img src="https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2023/01/31/224504-samsunggalaxys23live.jpg?itok=bpo7tw0H&c=c5af8c0f92ccc8e249257bf0f1cb18e8" class="card-img-top" alt="news article image">
+          <div class="card-body">
+            <h1 class="card-title">Samsung Unpacked 2023 Galaxy S23 series launch event: How to watch livestream, everything to expect</h1>
+            <p class="card-text">Samsung has been accepting pre-reservations for the Galaxy S23 lineup for quite some time now</p>
+            <a href="https://www.news9live.com/technology/mobile-phone/galaxy-unpacked-2023-when-where-to-watch-samsung-galaxy-s23-launch-event-au2181-2041031" class="btn-outline-dark btn-lg">Read More</a>
+          </div>
+        </div><div class="card mb-3" style="float:left; width: 100%;">
+          <img src="https://static.toiimg.com/thumb/97490802.cms?width=680&height=512&imgsize=22310" class="card-img-top" alt="news article image">
+          <div class="card-body">
+            <h1 class="card-title">Dementia: Just 3 concussions can increase your dementia risk, study finds</h1>
+            <p class="card-text">Multiple concussions in a lifetime were shown to affect the ability to plan and pay attention, though research also underlined health benefits of playing sport</p>
+            <a href="https://www.theguardian.com/sport/2023/jan/31/three-or-more-concussions-add-up-to-long-term-cognitive-problems-study-suggests" class="btn-outline-dark btn-lg">Read More</a>
+          </div>
+        </div><div class="card mb-3" style="float:left; width: 100%;">
+          <img src="https://c.ndtvimg.com/2023-01/nklbebi8_priyanka-chopra_625x300_31_January_23.jpg" class="card-img-top" alt="news article image">
+          <div class="card-body">
+            <h1 class="card-title"> Priyanka Chopra Reveals Daughter's Face To The World</h1>
+            <p class="card-text">The face reveal came at the Jonas Brothers' Walk of Fame ceremony attended by musician Nick Jonas and his brothers Kevin and Joe. Kevin and Joe's wives, Danielle Jonas and Sophie Turner, were also seen posing for a group picture.</p>
+            <a href="https://www.rediff.com/movies/report/priyanka-reveals-malti-maries-face-for-the-first-time/20230131.htm" class="btn-outline-dark btn-lg">Read More</a>
+          </div>
+        </div><div class="card mb-3" style="float:left; width: 100%;">
+          <img src="https://s.yimg.com/fz/api/res/1.2/qjrFrUrIcdurqX6cIXzqyg--~C/YXBwaWQ9c3JjaGRkO2g9MTQwO3E9ODA7dz0yMDA-/https://www.bing.com/th?id=OIP.B7LVBnSeZpAmlik7pV-_igHaFN&w=200&h=140&rs=1&qlt=80&pid=3.1" class="card-img-top" alt="news article image">
+          <div class="card-body">
+            <h1 class="card-title">Mumbai- Water Supply will be at 6PM instead of 10AM</h1>
+            <p class="card-text">The technical repair work will take an additional 8 hours
+            </p>
+            <a href="https://www.mumbailive.com/en/civic/mumbai-today-water-supply-will-be-at-6-pm-instead-of-10-am-76897" class="btn-outline-dark btn-lg">Read More</a>
+          </div>
+        </div><div class="card mb-3" style="float:left; width: 100%;">
+          <img src="https://c.ndtvimg.com/2023-01/d31ajkq8_gautam-adani_625x300_31_January_23.jpg" class="card-img-top" alt="news article image">
+          <div class="card-body">
+            <h1 class="card-title">Large Investors Pull Adani Enterprises' Share Sale Through After Stock Rout</h1>
+            <p class="card-text">The success of India's biggest follow-on public offer (FPO) is the first reprieve in a tough week for the sprawling business empire of Gautam Adani -- still Asia's richest man despite a bruising $36 billion hit to his personal fortune
+            </p>
+            <a href="https://finshots.in/archive/adani-vs-hindenburg-simplified-2/" class="btn-outline-dark btn-lg">Read More</a>
+          </div>
+        </div><div class="card mb-3" style="float:left; width: 100%;">
+          <img src="https://images.hindustantimes.com/img/2023/01/31/550x309/TECH-WHATSAPP--0_1662977645389_1662977645389_1675138725437_1675138725437.JPG" class="card-img-top" alt="news article image">
+          <div class="card-body">
+            <h1 class="card-title">WhatsApp starts testing longer group subjects, descriptions</h1>
+            <p class="card-text">According to a report, the maximum limit has been expanded from 25 to 100 for subject, and from 512 to 2,048, for description</p>
+            <a href="https://telecom.economictimes.indiatimes.com/news/whatsapp-rolling-out-longer-group-subjects-descriptions-on-android-beta/97478901" class="btn-outline-dark btn-lg">Read More</a>
+          </div>
+         </div><div class="card mb-3" style="float:left; width: 100%;">
+          <img src="https://images.indianexpress.com/2023/01/Thousand-galaxies-colliding-20230131.jpg" class="card-img-top" alt="news article image">
+          <div class="card-body">
+            <h1 class="card-title">Watch thousands of galaxies collide in this image made using multiple telescopes</h1>
+            <p class="card-text">This composite image made using data from multiple telescopes contains hundreds and maybe even thousands of galaxies colliding. Here is how you can decode the different parts of the image.</p>
+            <a href="https://indianexpress.com/article/technology/watch-thousands-galaxies-collide-8415762/" class="btn-outline-dark btn-lg">Read More</a>
+          </div>
+        </div> 
+     
+   </div>
+  </div>
+
+   
+</body>
+
+</html>
